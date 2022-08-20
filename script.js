@@ -93,3 +93,10 @@ function checkWin(currentClass) {
 		})
 	})
 }
+
+ // footer
+ var cpYear = document.getElementById("cp-date");
+ var d = new Date();
+ var year = d.getFullYear()
+
+ cpYear.innerHTML = year;
